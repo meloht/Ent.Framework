@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ent.Framework.Log;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -152,7 +153,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-               // LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return false;
         }
@@ -202,7 +203,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                //LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return false;
         }
@@ -222,7 +223,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                //LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return false;
         }
@@ -255,7 +256,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                //LogHandle.Error(ex);
+                LogHandle.Error(ex);
                 return null;
             }
         }
@@ -295,7 +296,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-               // LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return false;
         }
@@ -315,7 +316,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                //LogHandle.Error(ex);
+                LogHandle.Error(ex);
                 return Stream.Null;
             }
 
@@ -357,7 +358,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-               // LogHandle.Error(ex);
+                LogHandle.Error(ex);
                 return false;
 
             }
@@ -383,7 +384,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-               // LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return fileSize;
         }
@@ -402,7 +403,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                //LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return false;
         }
@@ -421,7 +422,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                //LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return false;
         }
@@ -439,7 +440,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-               // LogHandle.Error(ex);
+                LogHandle.Error(ex);
             }
             return false;
         }
@@ -489,7 +490,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                //LogHandle.Error(ex);
+                LogHandle.Error(ex);
                 return null;
             }
             finally

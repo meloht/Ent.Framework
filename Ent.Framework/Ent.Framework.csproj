@@ -26,9 +26,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Cache\" />
-    <Folder Include="Log\" />
-  </ItemGroup>
-
 </Project>
