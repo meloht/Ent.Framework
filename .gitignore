@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs/Ent.Framework/v15
+/Ent.Framework/bin/Debug/netcoreapp2.1
+/Ent.Framework/obj
