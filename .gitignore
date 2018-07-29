@@ -5,3 +5,6 @@
 /.vs/Ent.Framework/v15
 /Ent.Framework/bin/Debug/netcoreapp2.1
 /Ent.Framework/obj
+/Ent.Framework.Log/obj
+/.vs/Ent.Framework/DesignTimeBuild
+/Ent.Framework.Log/bin/Debug/netcoreapp2.1

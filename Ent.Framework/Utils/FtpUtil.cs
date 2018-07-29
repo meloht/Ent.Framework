@@ -10,6 +10,8 @@ namespace Ent.Framework.Utils
 {
     public class FtpUtil
     {
+        private static readonly ILog Logger = LogProvider.GetCurrentClassLogger();
+
         private readonly string _ftpServerIp;
         private readonly string _ftpUserId;
         private readonly string _ftpPassword;
@@ -153,7 +155,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message,ex);
             }
             return false;
         }
@@ -203,7 +205,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
             }
             return false;
         }
@@ -223,7 +225,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
             }
             return false;
         }
@@ -256,7 +258,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
                 return null;
             }
         }
@@ -296,7 +298,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
             }
             return false;
         }
@@ -316,7 +318,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
                 return Stream.Null;
             }
 
@@ -358,7 +360,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
                 return false;
 
             }
@@ -384,7 +386,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
             }
             return fileSize;
         }
@@ -403,7 +405,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
             }
             return false;
         }
@@ -422,7 +424,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
             }
             return false;
         }
@@ -440,7 +442,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
             }
             return false;
         }
@@ -490,7 +492,7 @@ namespace Ent.Framework.Utils
             }
             catch (Exception ex)
             {
-                LogHandle.Error(ex);
+                Logger.ErrorException(ex.Message, ex);
                 return null;
             }
             finally
