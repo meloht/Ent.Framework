@@ -8,3 +8,5 @@
 /Ent.Framework.Log/obj
 /.vs/Ent.Framework/DesignTimeBuild
 /Ent.Framework.Log/bin/Debug/netcoreapp2.1
+/Ent.Framework.UnitTest/obj/Debug/netcoreapp2.1
+/Ent.Framework.UnitTest/obj
